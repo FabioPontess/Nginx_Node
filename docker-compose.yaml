@@ -6,8 +6,8 @@ services:
       container_name: db
       restart: always
       tty: true
-      volumes:
-         - './mysql:/var/lib/mysql'
+#      volumes:
+#         - './mysql:/var/lib/mysql'
       environment:
          - MYSQL_DATABASE=Nginx_Node_db
          - MYSQL_ROOT_PASSWORD=root
