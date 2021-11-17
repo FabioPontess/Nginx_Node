@@ -2,3 +2,6 @@ Desafio 2 - Nginx com Node.js
 Sugestão de comando:
 
 docker-compose up -- build
+
+
+OBS: Optei por não fazer volume do banco de dados. Caso Deseja, basta descomentar a linha 9 e 10 do docker-compose.yaml e criar a pasta mysql na mesma raiz onde está o docker-compose
